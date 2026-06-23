@@ -1,0 +1,190 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("./images/bgmain.jpg");
+    background-size: cover;
+}
+
+/* Create a container for the background image and set its properties */
+.background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Style the background image to cover the entire container */
+.background img {
+    border-radius: 50%;
+    position:sticky;
+    /* Change position to fixed */
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    
+}
+
+/* Create a container for the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Style the header section */
+.header {
+    padding: 20px;
+    color: #fff;
+    /* Text color is white */
+    font-size: 1.6em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better visibility */
+}
+
+.header h2{
+    margin-left:25px;
+}
+
+.logo h1{
+    margin-left:7.4%;
+    font-size:5rem;
+}
+/* Style the content section */
+.content {
+    max-width: 45em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the items horizontally */
+    margin-top: 1%;
+    /* This value may need to be adjusted based on your specific layout */
+}
+
+/* Style the buttons (subtitles) */
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFDAB9;
+    /* Peach color */
+    color: #000;
+    /* Text color is black */
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+    /* Change to red on hover */
+}
+
+/* Style the logo section */
+.logo {
+    margin-left: 1em;
+    position:static;
+    /* Adjust the margin-left value as needed for more left orientation */
+    display: flex;
+    max-width: 30em;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better visibility */
+}
+
+/* Style the slogan section */
+.slogan {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 1.2em;
+    max-width: 39em;
+    font-size: 1em;
+    /* Adjust the font-size value as needed to make it shorter */
+    color: #fff;
+    /* Text color is white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add text shadow for better visibility */
+}
+
+/* Existing CSS styles */
+
+/* Style the container for the button and information combo */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Box background color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Add a subtle box shadow */
+}
+
+/* Style the button (subtitle) */
+.button {
+    background-color: white;
+    color: #000;
+    /* Text color (black) */
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    /* Border color (blue) */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #007BFF;
+    /* Change background to blue on hover */
+    color: white;
+    /* Change text color to white on hover */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+    /* Add a blue glow on hover */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+    /* Enable vertical scrolling if content exceeds the viewport height */
+}
+
+.box:hover {
+    animation: jiggle 1s ease infinite;
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(3deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    75% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+h1 {
+    font-family: "Monotype Corsiva", cursive;
+    /* Other styles for the title */
+}
