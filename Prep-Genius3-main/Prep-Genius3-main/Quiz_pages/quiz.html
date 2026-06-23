@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <img src="../images/quiz1.png" alt="Quiz Logo" class="quiz-logo">
+        <h1>Choose a skill to measure your proficiency level !!</h1>
+        <div class="skill-options">
+            <button id="aptitude" onclick="startAptitudeQuiz()">Aptitude</button><br>
+            <button id="cs_subjects" onclick="startSubjectQuiz()">CS Subjects</button><br>
+            <button id="language_proficiency" onclick="startLangQuiz()">Language Proficiency</button><br>
+            <button id="machine_learning" onclick="startMLQuiz()">Machine Learning</button><br>
+            <button id="data_science" onclick="startDSQuiz()">Data Science</button><br>
+            <button id="cyber_security" onclick="startCSQuiz()">Cyber Security</button><br>
+        </div>
+        <div id="question-container" class="hidden">
+            <h2 id="question">Question</h2>
+            <div id="choices">
+                <label><input type="radio" name="answer" value="2">2</label><br>
+                <label><input type="radio" name="answer" value="4">4</label><br>
+                <label><input type="radio" name="answer" value="10">10</label><br>
+                <label><input type="radio" name="answer" value="20">20</label><br>
+            </div>
+            <button onclick="checkAnswer()">Submit Answer</button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

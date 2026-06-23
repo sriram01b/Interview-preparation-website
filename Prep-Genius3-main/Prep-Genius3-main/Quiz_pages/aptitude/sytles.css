@@ -1,0 +1,192 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-box {
+    max-width: 600px;
+    width: 100%;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    /* Add some margin around the quiz box */
+}
+
+.quiz-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.question-info,
+.score {
+    font-size: 18px;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+}
+
+.score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Set options to display in a single column */
+    gap: 10px;
+    margin-top: 10px;
+    /* Add some space between options */
+}
+
+.option {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: left;
+    width: 100%;
+}
+
+.option:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    /* Increase the size by 10% */
+}
+
+.next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #17a2b8;
+    /* Updated color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    float: right;
+    /* Right-align the button */
+}
+
+.next-button:hover {
+    background-color: #0a5d74;
+    /* Updated hover color */
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+    width: 0;
+    /* Set initial width to 0% */
+}
+
+.question-info {
+    font-size: 24px;
+    /* Set the font size to 24 pixels */
+    font-weight: bold;
+    /* Make the text bold */
+}
+.progress-bar {
+    height: 20px;
+    /* Increase the height of the progress bar */
+    margin-bottom: 20px;
+    /* Add some space below the progress bar */
+}
+
+/* Add this CSS to your styles.css file or in a <style> tag in your HTML file */
+.quiz-summary {
+    background:url("../../images/bgcompleted.jpg");
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.quiz-summary h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.quiz-summary p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.quiz-summary img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#retry-button {
+    padding: 12px 24px;
+    /* Adjust padding as needed */
+    font-size: 18px;
+    /* Adjust font size as needed */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    /* Adjust margin as needed */
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+#retry-button:hover {
+    background-color: #0056b3;
+    /* Button background color on hover */
+}
+

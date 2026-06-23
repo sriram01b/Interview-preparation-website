@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/bgDSA4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.problems h1{
+    color:#A0E9FF;
+}
+header {
+    background-image: url("./images/coddingpic_2.jpg");
+    /* Set the background image */
+    background-size: cover;
+    /* Make sure the image covers the entire header */
+    color:yellow;
+    text-align: center;
+    font-size:1.3em;
+    padding: 1em;
+    height:295px;
+    border:10px solid white;
+}
+
+thead {
+    background-color: 00A9FF;
+    /* Light Peach Color */
+}
+nav {
+    padding: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #666;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2em;
+    text-align: center;
+}
+
+.content h2 {
+    color: #190482;
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.8em;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.leetcodetable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leetcodetable th,
+.leetcodetable td {
+    font-family: 'Libre Baskerville', serif;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.leetcodetable th {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f2f2f2;
+}
+
+.leetcodetable select {
+    width: 100%;
+    padding: 6px;
+}
+
+.leetcodetable img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.problems{
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+table{
+    font-size:1.1em;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
